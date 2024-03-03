@@ -25,7 +25,6 @@ target 'Pulse' do
   pod 'lottie-ios'
   pod 'UBottomSheet'
   pod 'SkeletonView'
-  pod "JGProgressHUD"
   pod 'CRRefresh'
   pod 'FMPhotoPicker'
 
