@@ -12,10 +12,19 @@ import FirebaseCore
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
+    public static var currentPlace: Place = Place()
+    public static var currentUser: User = User()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
+        
+        let defaults = UserDefaults.standard
+        let eula = defaults.bool(forKey: "eula")
+        
+        if eula == nil {
+            defaults.set(false, forKey: "eula")
+        }
         return true
     }
 

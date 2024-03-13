@@ -27,7 +27,6 @@ target 'Pulse' do
   pod 'SkeletonView'
   pod 'CRRefresh'
   pod 'FMPhotoPicker'
-
-  
+  pod "JGProgressHUD"
 
 end

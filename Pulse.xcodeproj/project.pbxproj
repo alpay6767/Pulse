@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		43B65153432F167268CF2A1B /* Pods_Pulse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4C5465A650B7CAEFC0916C /* Pods_Pulse.framework */; };
+		4A01607F2BA1F61C00E2B270 /* NameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A01607E2BA1F61C00E2B270 /* NameController.swift */; };
+		4A0160812BA1F83400E2B270 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0160802BA1F83400E2B270 /* User.swift */; };
+		4A0160832BA1F96F00E2B270 /* FBHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0160822BA1F96F00E2B270 /* FBHandler.swift */; };
+		4A0160852BA1FA7B00E2B270 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0160842BA1FA7B00E2B270 /* Place.swift */; };
+		4A0160872BA1FEE800E2B270 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0160862BA1FEE800E2B270 /* Session.swift */; };
+		4A0160892BA2072B00E2B270 /* UploadPicturePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0160882BA2072B00E2B270 /* UploadPicturePage.swift */; };
+		4A01608B2BA20E1000E2B270 /* AdminPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A01608A2BA20E1000E2B270 /* AdminPage.swift */; };
 		4A79C62B2B93D96400097714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79C62A2B93D96400097714 /* AppDelegate.swift */; };
 		4A79C62D2B93D96400097714 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79C62C2B93D96400097714 /* SceneDelegate.swift */; };
 		4A79C62F2B93D96400097714 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A79C62E2B93D96400097714 /* ViewController.swift */; };
@@ -18,6 +25,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A01607E2BA1F61C00E2B270 /* NameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameController.swift; sourceTree = "<group>"; };
+		4A0160802BA1F83400E2B270 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		4A0160822BA1F96F00E2B270 /* FBHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBHandler.swift; sourceTree = "<group>"; };
+		4A0160842BA1FA7B00E2B270 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		4A0160862BA1FEE800E2B270 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		4A0160882BA2072B00E2B270 /* UploadPicturePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPicturePage.swift; sourceTree = "<group>"; };
+		4A01608A2BA20E1000E2B270 /* AdminPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminPage.swift; sourceTree = "<group>"; };
 		4A79C6272B93D96400097714 /* Pulse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pulse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A79C62A2B93D96400097714 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A79C62C2B93D96400097714 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,6 +41,7 @@
 		4A79C6362B93D96800097714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A79C6382B93D96800097714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A7FD6032B94C5D600071C30 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4A7FD6052B94DBE100071C30 /* Pulse.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Pulse.entitlements; sourceTree = "<group>"; };
 		667537505C202DEE55E6BEEA /* Pods-Pulse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pulse.debug.xcconfig"; path = "Target Support Files/Pods-Pulse/Pods-Pulse.debug.xcconfig"; sourceTree = "<group>"; };
 		9BFEE12A0CAAA66C8EA89DF2 /* Pods-Pulse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pulse.release.xcconfig"; path = "Target Support Files/Pods-Pulse/Pods-Pulse.release.xcconfig"; sourceTree = "<group>"; };
 		DF4C5465A650B7CAEFC0916C /* Pods_Pulse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pulse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,14 +88,22 @@
 		4A79C6292B93D96400097714 /* Pulse */ = {
 			isa = PBXGroup;
 			children = (
+				4A7FD6052B94DBE100071C30 /* Pulse.entitlements */,
 				4A7FD6032B94C5D600071C30 /* GoogleService-Info.plist */,
 				4A79C62A2B93D96400097714 /* AppDelegate.swift */,
 				4A79C62C2B93D96400097714 /* SceneDelegate.swift */,
-				4A79C62E2B93D96400097714 /* ViewController.swift */,
 				4A79C6302B93D96400097714 /* Main.storyboard */,
 				4A79C6332B93D96800097714 /* Assets.xcassets */,
 				4A79C6352B93D96800097714 /* LaunchScreen.storyboard */,
 				4A79C6382B93D96800097714 /* Info.plist */,
+				4A79C62E2B93D96400097714 /* ViewController.swift */,
+				4A01607E2BA1F61C00E2B270 /* NameController.swift */,
+				4A0160882BA2072B00E2B270 /* UploadPicturePage.swift */,
+				4A01608A2BA20E1000E2B270 /* AdminPage.swift */,
+				4A0160822BA1F96F00E2B270 /* FBHandler.swift */,
+				4A0160802BA1F83400E2B270 /* User.swift */,
+				4A0160842BA1FA7B00E2B270 /* Place.swift */,
+				4A0160862BA1FEE800E2B270 /* Session.swift */,
 			);
 			path = Pulse;
 			sourceTree = "<group>";
@@ -210,8 +233,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A0160832BA1F96F00E2B270 /* FBHandler.swift in Sources */,
+				4A01607F2BA1F61C00E2B270 /* NameController.swift in Sources */,
 				4A79C62F2B93D96400097714 /* ViewController.swift in Sources */,
+				4A0160892BA2072B00E2B270 /* UploadPicturePage.swift in Sources */,
+				4A01608B2BA20E1000E2B270 /* AdminPage.swift in Sources */,
 				4A79C62B2B93D96400097714 /* AppDelegate.swift in Sources */,
+				4A0160872BA1FEE800E2B270 /* Session.swift in Sources */,
+				4A0160812BA1F83400E2B270 /* User.swift in Sources */,
+				4A0160852BA1FA7B00E2B270 /* Place.swift in Sources */,
 				4A79C62D2B93D96400097714 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = PulseAppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pulse/Pulse.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CMCESWENEQ;
@@ -393,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = PulseAppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Pulse/Pulse.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CMCESWENEQ;
